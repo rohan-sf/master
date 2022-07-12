@@ -117,59 +117,6 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <componentInstanceProperties>
-                    <name>tabs</name>
-                    <value>maintabs</value>
-                </componentInstanceProperties>
-                <componentName>flexipage:tabset</componentName>
-                <identifier>flexipage_tabset2</identifier>
-            </componentInstance>
-        </itemInstances>
-        <mode>Replace</mode>
-        <name>main</name>
-        <type>Region</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <componentInstance>
-                <componentName>PropertyDaysOnMarketChart</componentName>
-                <identifier>PropertyDaysOnMarketChart</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>latField</name>
-                    <value>Location__Latitude__s</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>longField</name>
-                    <value>Location__Longitude__s</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>titleField</name>
-                    <value>Name</value>
-                </componentInstanceProperties>
-                <componentName>MapCard</componentName>
-                <identifier>MapCard</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>animations</name>
-                    <value>true</value>
-                </componentInstanceProperties>
-                <componentName>PictureGalleryCard</componentName>
-                <identifier>PictureGalleryCard</identifier>
-            </componentInstance>
-        </itemInstances>
-        <name>facet-f5590bb9-9b4e-4bf3-ac0e-27a73ca22cc0</name>
-        <type>Facet</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <itemInstances>
-            <componentInstance>
                 <componentName>runtime_sales_activities:activityPanel</componentName>
                 <identifier>runtime_sales_activities_activityPanel</identifier>
             </componentInstance>
