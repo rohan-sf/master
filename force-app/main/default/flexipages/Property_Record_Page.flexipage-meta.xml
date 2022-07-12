@@ -3,12 +3,40 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentInstanceProperties>
+                    <name>collapsed</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>enableActionsConfiguration</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>enableActionsInNative</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>hideChatterActions</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>numVisibleActions</name>
+                    <value>3</value>
+                </componentInstanceProperties>
                 <componentName>force:highlightsPanel</componentName>
                 <identifier>force_highlightsPanel</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
+                <componentInstanceProperties>
+                    <name>hideUpdateButton</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>variant</name>
+                    <value>linear</value>
+                </componentInstanceProperties>
                 <componentName>runtime_sales_pathassistant:pathAssistant</componentName>
                 <identifier>runtime_sales_pathassistant_pathAssistant</identifier>
             </componentInstance>
@@ -20,6 +48,18 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
+                <componentInstanceProperties>
+                    <name>relatedListComponentOverride</name>
+                    <value>NONE</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>rowsToDisplay</name>
+                    <value>10</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>showActionBar</name>
+                    <value>true</value>
+                </componentInstanceProperties>
                 <componentName>force:relatedListContainer</componentName>
                 <identifier>force_relatedListContainer</identifier>
             </componentInstance>
@@ -130,40 +170,6 @@
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <itemInstances>
-            <componentInstance>
-                <componentName>PropertyDaysOnMarketChart</componentName>
-                <identifier>PropertyDaysOnMarketChart</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>latField</name>
-                    <value>Location__Latitude__s</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>longField</name>
-                    <value>Location__Longitude__s</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>titleField</name>
-                    <value>Name</value>
-                </componentInstanceProperties>
-                <componentName>MapCard</componentName>
-                <identifier>MapCard</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>animations</name>
-                    <value>true</value>
-                </componentInstanceProperties>
-                <componentName>PictureGalleryCard</componentName>
-                <identifier>PictureGalleryCard</identifier>
-            </componentInstance>
-        </itemInstances>
         <name>facet-f5590bb9-9b4e-4bf3-ac0e-27a73ca22cc0</name>
         <type>Facet</type>
     </flexiPageRegions>
